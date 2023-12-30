@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+p {
+    text-align: center;
+    color: white;
+}
+.about {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    text-align: center;
+    color: rgb(13, 209, 173);
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutt {
+    color: rgb(41, 41, 151);
+}
+nav {
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+nav a {
+    color: rgb(41, 41, 151);
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+}
+section {
+    padding: 2em;
+}
+.home {
+    background-color: #102d5f;
+}
+.about {
+    background-color: rgb(13, 209, 173);
+}
+.contact {
+    background-color: #102d5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #102d5f;
+    background-color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: green;
+    align-items: center;
+    text-align: center;
+}
+img {
+    max-width: 20%;
+    height: auto;
+}
+.about img {
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+    margin: 0 auto;
+    max-height: 200px; 
+}
+footer {
+    text-align: center;
+    color: #102d5f;
+}
